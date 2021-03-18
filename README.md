@@ -1,1 +1,1 @@
-# nestjs-git-studying
+# nestjs-project
