@@ -1456,13 +1456,23 @@
         "signature": "3b05c396564e51753e921e1cc4aae1cf7cd9be53c891cf2e81fa29f11c0bd373",
         "affectsGlobalScope": false
       },
+      "../src/create-cat.dto.ts": {
+        "version": "c7d25fa4fdd2b03dd4f5d819d1ba2f794590c016243aa5b9ad2672550d6581d5",
+        "signature": "48c1947bd9e02a43328499629404bf17355f3a3881bd294a91c82b93fda8112b",
+        "affectsGlobalScope": false
+      },
+      "../src/put-cat.dto.ts": {
+        "version": "6485cb388890040c1673356a8bc2418f48c674618e0f46dc7ddb6d9b9b08a313",
+        "signature": "f15d67f0f0e2687fcdea1fe00a72349e0fa1e11fa2fc77c9e32f6d6408a231dc",
+        "affectsGlobalScope": false
+      },
       "../src/cats/cats.controller.ts": {
-        "version": "0f028ea0de81f008ea188940d688eab0bdaa9b38ceb07ddc92a2d0fe4dc6da56",
-        "signature": "b5c769ce0c0d4d3af197a07cc9d014767779ccac96e65e8af950ad48219d2d16",
+        "version": "96ef47723125a28dca7c26bc0853e63c9e8cb061d1c2c6f6328ad8a4c0df3900",
+        "signature": "ec87c931b4536f68896c553498c4148d63a00e1b8c6d9046949bfac8a519e7fa",
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "a573ddf3bb576d42ca92ea215c86c93ed39e0925ade5f60bd7e54b42211a32aa",
+        "version": "8d5f60c7c0aa4cd46e88026914518143265ac6bcb37f6bb58566f72251e25ecf",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -3280,7 +3290,9 @@
       ],
       "../src/cats/cats.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@types/express/index.d.ts"
+        "../node_modules/@types/express/index.d.ts",
+        "../src/create-cat.dto.ts",
+        "../src/put-cat.dto.ts"
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
@@ -4618,9 +4630,6 @@
       ],
       "../src/app.controller.ts": [
         "../src/app.service.ts"
-      ],
-      "../src/cats/cats.controller.ts": [
-        "../node_modules/@types/express/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": []
